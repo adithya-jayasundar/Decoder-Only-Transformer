@@ -43,7 +43,7 @@ The model implements a **Transformer decoder stack** consisting of:
 
 ### Dataset:
 Download Tiny Shakespeare:
-```bash
+
 wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 .
 ├── input.txt             # Tiny Shakespeare dataset
@@ -56,6 +56,41 @@ batch_size = 32       # sequences per batch
 block_size = 8        # context length
 n_embd = 96           # embedding dimensions
 n_head = 3            # number of attention heads
+
+
+
+
+
+
+---
+
+
+### ✅ `DETAILS.md` (Author, License, References)
+
+
+# 📜 Project Details & Credits
+
+## 👨‍💻 Author
+
+Made with ❤️ by **Adithya Jayasundar TS**  
+A learning project to build Transformer models from scratch and gain deep understanding.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 📚 References
+
+- [Karpathy’s nanoGPT](https://github.com/karpathy/nanoGPT)
+- [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html)
+- [GPT: Improving Language Understanding by Generative Pretraining](https://cdn.openai.com/research-covers/language-unsupervised/language_understanding_paper.pdf)
+- [PyTorch Docs](https://pytorch.org/docs/stable/index.html)
+- [Transformer Illustrated](https://jalammar.github.io/illustrated-transformer/)
+
 n_layer = 3           # transformer blocks
 dropout = 0.2         # dropout rate
 learning_rate = 3e-2  # initial learning rate
