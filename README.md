@@ -65,7 +65,7 @@ n_head = 3            # number of attention heads
 ---
 
 
-### ✅ `DETAILS.md` (Author, License, References)
+
 
 
 # 📜 Project Details & Credits
